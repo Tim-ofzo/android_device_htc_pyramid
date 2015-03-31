@@ -4,13 +4,12 @@ $(call inherit-product, vendor/slim/config/gsm.mk)
 # Release name
 PRODUCT_RELEASE_NAME := pyramid
 
-# Boot animation
+# Bootanimation
 TARGET_SCREEN_HEIGHT := 960
 TARGET_SCREEN_WIDTH := 540
-TARGET_BOOTANIMATION_HALF_RES := true
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Slim stuff.
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/pyramid/device_pyramid.mk)
