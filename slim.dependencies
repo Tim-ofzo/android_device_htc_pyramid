@@ -1,7 +1,7 @@
 [
 
    {
- "repository": "ivanich/proprietary_vendor_htc"
+ "repository": "Tim-ofzo/proprietary_vendor_htc"
  "target_path": "vendor/htc",
  "branch": "cm-12.0"
    },
