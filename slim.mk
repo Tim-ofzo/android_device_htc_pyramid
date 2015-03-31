@@ -1,3 +1,6 @@
+# Specify phone tech before including full_phone
+$(call inherit-product, vendor/slim/config/gsm.mk)
+
 # Release name
 PRODUCT_RELEASE_NAME := pyramid
 
@@ -14,7 +17,7 @@ $(call inherit-product, device/htc/pyramid/device_pyramid.mk)
 
 # Device naming
 PRODUCT_DEVICE := pyramid
-PRODUCT_NAME := cm_pyramid
+PRODUCT_NAME := slim_pyramid
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := Sensation
 PRODUCT_MANUFACTURER := HTC
